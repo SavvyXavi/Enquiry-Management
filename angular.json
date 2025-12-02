@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Enquiry-Management:build:production"
+              "buildTarget": "Enquiry-Management:build:production"
             },
             "development": {
-              "browserTarget": "Enquiry-Management:build:development"
+              "buildTarget": "Enquiry-Management:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Enquiry-Management:build"
+            "buildTarget": "Enquiry-Management:build"
           }
         },
         "test": {
